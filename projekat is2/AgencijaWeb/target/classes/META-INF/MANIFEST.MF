@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: Kamdzijas
+Build-Jdk: 11.0.2
+Implementation-Title: AgencijaWeb
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: agencija
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/AgencijaWeb
+Created-By: Maven Integration for Eclipse
+

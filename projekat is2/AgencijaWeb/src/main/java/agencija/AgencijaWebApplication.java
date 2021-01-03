@@ -1,0 +1,16 @@
+package agencija;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
+
+@SpringBootApplication
+@EntityScan("model")
+public class AgencijaWebApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(AgencijaWebApplication.class, args);
+
+	}
+
+}
