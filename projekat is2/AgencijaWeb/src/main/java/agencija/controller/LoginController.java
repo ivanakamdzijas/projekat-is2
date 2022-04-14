@@ -132,7 +132,7 @@ public class LoginController {
 	public String korisniciAranzmana(Integer idAranzman, Model m, HttpServletRequest request) {
 		Aranzman a = ar.findById(idAranzman).get();
 		List<Rezervacija> rezervacije = rr.findByAranzman(a);
-		//ovo ce mi trebati za izvestaj o korisnicima
+		//ovo je potrebno za izvestaj o korisnicima
 		request.getSession().setAttribute("idAranzman", idAranzman);
 		
 		m.addAttribute("naziv", a.getNazivA());
